@@ -19,92 +19,92 @@ interface WorkoutDay {
 
 const workoutSchedule: WorkoutDay[] = [
   {
-    day: 'Mon',
-    dayFull: 'Monday',
-    focusArea: 'Rest',
-    exercises: [
-      { id: 'mon-1', name: 'Recovery stretching', completed: false, image: 'https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=400' },
-      { id: 'mon-2', name: 'Light walk (20-30 mins)', completed: false, image: 'https://images.pexels.com/photos/2803158/pexels-photo-2803158.jpeg?auto=compress&cs=tinysrgb&w=400' },
-      { id: 'mon-3', name: 'Meditation or relaxation', completed: false, image: 'https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=400' }
-    ],
-    isRest: true,
-    color: 'from-gray-500 to-gray-600'
-  },
-  {
-    day: 'Tue',
-    dayFull: 'Tuesday',
-    focusArea: 'Chest + Triceps',
-    exercises: [
-      { id: 'tue-1', name: '3 set Bench Press', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/bench%20press.png' },
-      { id: 'tue-2', name: '2 set Incline DB Press', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Incline%20DB%20Press.png' },
-      { id: 'tue-3', name: '3 set Tricep Pushdowns', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Tricep%20Pushdowns.png' },
-      { id: 'tue-4', name: '2 set Overhead Tricep Extensions', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Overhead%20Tricep%20Extensions.png' }
-    ],
-    isRest: false,
-    color: 'from-red-500 to-red-600'
-  },
-  {
-    day: 'Wed',
-    dayFull: 'Wednesday',
-    focusArea: 'Back + Biceps',
-    exercises: [
-      { id: 'wed-1', name: '3 set Pull-ups/Lat Pulldowns', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Lat%20Pulldowns.png' },
-      { id: 'wed-2', name: '3 set Barbell Rows', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Barbell%20Rows.png' },
-      { id: 'wed-3', name: '3 set Barbell Curls', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Barbell%20Curls.png' },
-      { id: 'wed-4', name: '3 set Hammer Curls', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Hammer%20Curls.png' }
-    ],
-    isRest: false,
-    color: 'from-blue-500 to-blue-600'
-  },
-  {
-    day: 'Thu',
-    dayFull: 'Thursday',
-    focusArea: 'Legs + Arms',
-    exercises: [
-      { id: 'thu-1', name: '2 set Deadlifts', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Deadlift.png' },
-      { id: 'thu-2', name: '3 set Bulgarian Split Squats', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Bulgarian%20Split%20Squats.png' },
-      { id: 'thu-3', name: '3 set Bicep Curls', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Bicep%20Curls.png' }
-    ],
-    isRest: false,
-    color: 'from-green-500 to-green-600'
-  },
-  {
-    day: 'Fri',
-    dayFull: 'Friday',
-    focusArea: 'Shoulders + Abs',
-    exercises: [
-      { id: 'fri-1', name: '3 set Overhead Press', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Overhead%20Press.png' },
-      { id: 'fri-2', name: '2 set Lateral Raises', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Lateral%20Raises.png' },
-      { id: 'fri-3', name: '3 set Rear Delt Fly', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Rear%20Delt.png' },
-      { id: 'fri-4', name: '3 set 1 min Planks', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Planks.png' }
-    ],
-    isRest: false,
-    color: 'from-yellow-500 to-yellow-600'
-  },
-  {
-    day: 'Sat',
-    dayFull: 'Saturday',
-    focusArea: 'Chest + Back (Push-Pull Combo)',
-    exercises: [
-      { id: 'sat-1', name: '3 set Incline DB Press', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Incline%20DB%20Press.png' },
-      { id: 'sat-2', name: '3 set Cable Row', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Cable%20Row.png' },
-      { id: 'sat-3', name: '3 set Pull-ups/Lat Pulldowns', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Lat%20Pulldowns.png' }
-    ],
-    isRest: false,
-    color: 'from-purple-500 to-purple-600'
-  },
-  {
-    day: 'Sun',
-    dayFull: 'Sunday',
-    focusArea: 'Legs (Quads + Hamstrings + Calves)',
-    exercises: [
-      { id: 'sun-1', name: '3 set Squats', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Squats.png' },
-      { id: 'sun-2', name: '3 set Leg Press', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Leg%20Press.png' },
-      { id: 'sun-3', name: '3 set Romanian Deadlifts', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Romanian%20Deadlifts.png' }
-    ],
-    isRest: false,
-    color: 'from-indigo-500 to-indigo-600'
-  }
+  day: 'Mon',
+  dayFull: 'Monday',
+  focusArea: 'Rest',
+  exercises: [
+    { id: 'mon-1', name: 'Recovery stretching', completed: false, image: 'https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=400' },
+    { id: 'mon-2', name: 'Light walk (20-30 mins)', completed: false, image: 'https://images.pexels.com/photos/2803158/pexels-photo-2803158.jpeg?auto=compress&cs=tinysrgb&w=400' },
+    { id: 'mon-3', name: 'Meditation or relaxation', completed: false, image: 'https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=400' }
+  ],
+  isRest: true,
+  color: 'from-gray-500 to-gray-600'
+},
+{
+  day: 'Tue',
+  dayFull: 'Tuesday',
+  focusArea: 'Chest + Triceps',
+  exercises: [
+    { id: 'tue-1', name: '3 set Bench Press', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/bench%20press.png' },
+    { id: 'tue-2', name: '2 set Incline DB Press', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Incline%20DB%20Press.png' },
+    { id: 'tue-3', name: '3 set Tricep Pushdowns', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Tricep%20Pushdowns.png' },
+    { id: 'tue-4', name: '2 set Overhead Tricep Extensions', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Overhead%20Tricep%20Extensions.png' }
+  ],
+  isRest: false,
+  color: 'from-red-500 to-red-600'
+},
+{
+  day: 'Wed',
+  dayFull: 'Wednesday',
+  focusArea: 'Back + Biceps',
+  exercises: [
+    { id: 'wed-1', name: '3 set Pull-ups/Lat Pulldowns', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Lat%20Pulldowns.png' },
+    { id: 'wed-2', name: '3 set Barbell Rows', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Barbell%20Rows.png' },
+    { id: 'wed-3', name: '3 set Barbell Curls', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Barbell%20Curls.png' },
+    { id: 'wed-4', name: '3 set Hammer Curls', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Hammer%20Curls.png' }
+  ],
+  isRest: false,
+  color: 'from-blue-500 to-blue-600'
+},
+{
+  day: 'Thu',
+  dayFull: 'Thursday',
+  focusArea: 'Legs + Arms',
+  exercises: [
+    { id: 'thu-1', name: '2 set Deadlifts', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Deadlift.png' },
+    { id: 'thu-2', name: '3 set Bulgarian Split Squats', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Bulgarian%20Split%20Squats.png' },
+    { id: 'thu-3', name: '3 set Bicep Curls', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Bicep%20Curls.png' }
+  ],
+  isRest: false,
+  color: 'from-green-500 to-green-600'
+},
+{
+  day: 'Fri',
+  dayFull: 'Friday',
+  focusArea: 'Shoulders + Abs',
+  exercises: [
+    { id: 'fri-1', name: '3 set Overhead Press', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Overhead%20Press.png' },
+    { id: 'fri-2', name: '2 set Lateral Raises', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Lateral%20Raises.png' },
+    { id: 'fri-3', name: '3 set Rear Delt Fly', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Rear%20Delt.png' },
+    { id: 'fri-4', name: '3 set 1 min Planks', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Planks.png' }
+  ],
+  isRest: false,
+  color: 'from-yellow-500 to-yellow-600'
+},
+{
+  day: 'Sat',
+  dayFull: 'Saturday',
+  focusArea: 'Chest + Back (Push-Pull Combo)',
+  exercises: [
+    { id: 'sat-1', name: '3 set Incline DB Press', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Incline%20DB%20Press.png' },
+    { id: 'sat-2', name: '3 set Cable Row', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Cable%20Row.png' },
+    { id: 'sat-3', name: '3 set Pull-ups/Lat Pulldowns', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Lat%20Pulldowns.png' }
+  ],
+  isRest: false,
+  color: 'from-purple-500 to-purple-600'
+},
+{
+  day: 'Sun',
+  dayFull: 'Sunday',
+  focusArea: 'Legs (Quads + Hamstrings + Calves)',
+  exercises: [
+    { id: 'sun-1', name: '3 set Squats', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Squats.png' },
+    { id: 'sun-2', name: '3 set Leg Press', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Leg%20Press.png' },
+    { id: 'sun-3', name: '3 set Romanian Deadlifts', completed: false, image: 'https://raw.githubusercontent.com/Raj-pro/workout_tracker/main/src/img/Romanian%20Deadlifts.png' }
+  ],
+  isRest: false,
+  color: 'from-indigo-500 to-indigo-600'
+}
 ];
 
 function App() {
