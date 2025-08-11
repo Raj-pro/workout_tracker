@@ -35,10 +35,10 @@ const workoutSchedule: WorkoutDay[] = [
     dayFull: 'Tuesday',
     focusArea: 'Chest + Triceps',
     exercises: [
-      { id: 'tue-1', name: '3 set Bench Press', completed: false, image: 'https://lh3.googleusercontent.com/gg-dl/AJfQ9KT6nBRnRpdG8W9RaRCeTaQ1ZKiggPH3DRT0YMAxI5iirq4x_OxcXiRRTwr_BhtH-pkbAqk5o1onEZA9oBh6Z_yJs5s6kdkUqFE0Y3vaqwJiyOpk3Nw-ByNax1ROCgZuFHST4vw0FBbV_YQ-XSfdHTMzh53FKi2proFhsDKAPMDlCGFO?auto=compress&cs=tinysrgb&w=400' },
-      { id: 'tue-2', name: '2 set Incline DB Press', completed: false, image: 'https://lh3.googleusercontent.com/gg-dl/AJfQ9KRlAWU8bt7vlr--qm6QhpTU8VZ5e1EcPTeR2cbUP3wYnCrvVb4-t4KEWDMpRyDl5s-KjaFmU8BjwLe1xUMdDaac9q5_eYIvEFng2WoX_o9ezhvDketH2BiLmqTyZ1Q8vir8L_PpI6qugMQhVh_LLlOIn36esUhadDNFFOJgTHBOFIkjSA?auto=compress&cs=tinysrgb&w=400' },
-      { id: 'tue-3', name: '3 set Tricep Pushdowns', completed: false, image: 'https://lh3.googleusercontent.com/gg-dl/AJfQ9KQgBdJoX-7Iijv7QmDX8uD8-Ac8B8V09D8byDqlG_Wcq3zWjcIehtSyP4envyGTJb432PXSgrdWZVk1TwCbbZS_uz62dyYxKdA6AHomIgOQHvlMVkRTotnHr8HzPvRqAQEk7jizBxdv7YqPXLHI6a7IA7EwNqKcUQ7cQZofHWgXNOVxoA?auto=compress&cs=tinysrgb&w=400' },
-      { id: 'tue-4', name: '2 set Overhead Tricep Extensions', completed: false, image: 'https://lh3.googleusercontent.com/gg-dl/AJfQ9KRYiYdy9fH1B3Qn04x79BtKbShheJVQSLSN4ieO8-6zIUFZx0zT_7wUlKNGOQbeQITOh5I2t7XQt8Kz24x_Fztjk6HrHYtY_-oJ-Ovtuf-QvsrgEZEa0xaR73p3FNvZNhBIdXpg891MJ_jDtKMHPIx1Ntof5MQ-qwV1QUTueo4U9qwDfw?auto=compress&cs=tinysrgb&w=400' }
+      { id: 'tue-1', name: '3 set Bench Press', completed: false, image: 'https://www.imghippo.com/i/TjX1687Yks.png?auto=compress&cs=tinysrgb&w=400' },
+      { id: 'tue-2', name: '2 set Incline DB Press', completed: false, image: 'https://www.imghippo.com/i/hsA4675o.png?auto=compress&cs=tinysrgb&w=400' },
+      { id: 'tue-3', name: '3 set Tricep Pushdowns', completed: false, image: 'https://www.imghippo.com/i/k6670Vw.png?auto=compress&cs=tinysrgb&w=400' },
+      { id: 'tue-4', name: '2 set Overhead Tricep Extensions', completed: false, image: 'https://www.imghippo.com/i/tkw3244kn.png?auto=compress&cs=tinysrgb&w=400' }
     ],
     isRest: false,
     color: 'from-red-500 to-red-600'
