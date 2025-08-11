@@ -35,10 +35,10 @@ const workoutSchedule: WorkoutDay[] = [
     dayFull: 'Tuesday',
     focusArea: 'Chest + Triceps',
     exercises: [
-      { id: 'tue-1', name: '3 set Bench Press', completed: false, image: 'https://www.imghippo.com/i/TjX1687Yks.png?auto=compress&cs=tinysrgb&w=400' },
-      { id: 'tue-2', name: '2 set Incline DB Press', completed: false, image: 'https://www.imghippo.com/i/hsA4675o.png?auto=compress&cs=tinysrgb&w=400' },
-      { id: 'tue-3', name: '3 set Tricep Pushdowns', completed: false, image: 'https://www.imghippo.com/i/k6670Vw.png?auto=compress&cs=tinysrgb&w=400' },
-      { id: 'tue-4', name: '2 set Overhead Tricep Extensions', completed: false, image: 'https://www.imghippo.com/i/tkw3244kn.png?auto=compress&cs=tinysrgb&w=400' }
+      { id: 'tue-1', name: '3 set Bench Press', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/bench%20press.png?auto=compress&cs=tinysrgb&w=400' },
+      { id: 'tue-2', name: '2 set Incline DB Press', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Incline%20DB%20Press.png?auto=compress&cs=tinysrgb&w=400' },
+      { id: 'tue-3', name: '3 set Tricep Pushdowns', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Tricep%20Pushdowns.png?auto=compress&cs=tinysrgb&w=400' },
+      { id: 'tue-4', name: '2 set Overhead Tricep Extensions', completed: false, image: 'https://github.com/Raj-pro/workout_tracker/blob/main/src/img/Overhead%20Tricep%20Extensions.png?auto=compress&cs=tinysrgb&w=400' }
     ],
     isRest: false,
     color: 'from-red-500 to-red-600'
